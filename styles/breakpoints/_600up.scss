@@ -1,0 +1,12 @@
+.flex {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.places {
+    &__item {
+        flex-basis: 50%;
+        margin-bottom: 60px;
+    }
+}
+

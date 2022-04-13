@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TripMemory</title>
+    <meta name="description" content="This site is a test site.">
+    <link rel="icon" href="images/favicon.png">
+    <link rel="stylesheet" href="styles/loader.css">
+    <script src="scripts/vendors/pace.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/vendors/bootstrap-reboot.css" />
+    <link rel="stylesheet" href="styles/vendors/swiper.min.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <div id="global-container">
+      <div id="container">
+        <div class="mobile-menu__cover"></div>
+        <div class="nav-trigger"></div>
+        <header class="header">
+          <div class="header__inner appear up">
+            <div class="logo item">
+              <span>Trip</span>
+              <span class="logo__memory">Memory</span>
+            </div>
+            <nav class="header__nav">
+              <ul class="header__ul">
+                <li class="header__li item"><a href="#">Our service</a></li>
+                <li class="header__li item"><a href="#">Our company</a></li>
+                <li class="header__li item">
+                  <a class="btn filled" href="#">Contact</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="mobile-menu__btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </header>
+        <div id="content">
+          <div class="hero">
+            <div class="swiper-container">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="hero__title">Odawara</div>
+                  <img src="images/IMG_5.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">Naha</div>
+                  <img src="images/IMG_6.jpg" alt="" />
+                </div>
+                <div class="swiper-slide">
+                  <div class="hero__title">Yokosuka</div>
+                  <img src="images/IMG_3.jpg" alt="" />
+                </div>
+              </div>
+              <div class="hero__footer">
+                <img class="hero__downarrow" src="images/arrow.svg" />
+                <span class="hero__scrolltext">scroll</span>
+              </div>
+            </div>
+          </div>
+          <div id="main-content">
+            <main>
+              <section class="places">
+                <div>
+                  <h2 class="main-title tween-animate-title">Where Did You Go?</h2>
+                  <p class="sub-title tween-animate-title">What Are Your Memories?</p>
+                </div>
+                <div class="places__inner">
+                  <div class="places__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="background-image: url(images/IMG_1.jpg)"
+                      ></div>
+                    </div>
+                    <p class="places__title">Noto</p>
+                  </div>
+                  <div class="places__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="background-image: url(images/IMG_2.jpg)"
+                      ></div>
+                    </div>
+                    <p class="places__title">Yokohama</p>
+                  </div>
+                  <div class="places__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="background-image: url(images/IMG_7.jpg)"
+                      ></div>
+                    </div>
+                    <p class="places__title">Hakone</p>
+                  </div>
+                  <div class="places__item">
+                    <div class="cover-slide hover-darken">
+                      <div
+                        class="bg-img-zoom img-bg50"
+                        style="background-image: url(images/IMG_4.jpg)"
+                      ></div>
+                    </div>
+                    <p class="places__title">Yokosuka</p>
+                  </div>
+                  <div class="places__btn appear up">
+                    <button class="btn slide-bg item">In More Detail</button>
+                  </div>
+                </div>
+              </section>
+            </main>
+          </div>
+        </div>
+      </div>
+      <nav class="mobile-menu">
+        <div class="logo">
+          <span>Trip</span>
+          <span class="logo__memory">Memory</span>
+        </div>
+        <ul class="mobile-menu__main">
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">Our Service</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">About Us</span>
+            </a>
+          </li>
+          <li class="mobile-menu__item">
+            <a class="mobile-menu__link" href="#">
+              <span class="main-title">Contact Us</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <script src="scripts/vendors/swiper.min.js"></script>
+    <script src="scripts/vendors/TweenMax.min.js"></script>
+    <script src="scripts/vendors/scroll-polyfill.js"></script>
+    <script src="scripts/libs/scroll.js"></script>
+    <script src="scripts/libs/text-animation.js"></script>
+    <script src="scripts/libs/hero-slider.js"></script>
+    <script src="scripts/libs/mobile-menu.js"></script>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
