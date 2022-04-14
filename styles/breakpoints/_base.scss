@@ -171,25 +171,3 @@ main {
     }
   }
 }
-
-.icon {
-  position: relative;
-
-  @include p-base($left: -20px, $top: 50%, $width: 1em, $height: 1em) {
-    transform: translateY(-50%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }”
-
-  &.twitter{
-    &::before {
-      background-image: url(../images/twitter.svg);
-    }
-  }
-  &.fb{
-    &::before {
-      background-image: url(../images/facebook.svg);
-    }
-  }
-}
