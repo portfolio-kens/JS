@@ -144,26 +144,3 @@ main {
   }
 }
 
-.side {
-  display: none;
-  position: fixed;
-  top: 70%;
-  transform: translateY(-50%);
-  transition: all .3s ease-in;
-
-  & .tween-animate-title {
-    color: $cBlack;
-    text-decoration: none !important;
-    margin: 0 40px;
-    vertical-align: middle;
-    letter-spacing: 2px;
-  }
-
-  &.left {
-    left: -50px;
-
-    &.inview {
-      left: 50px;
-    }
-  }
-}
